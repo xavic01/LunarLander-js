@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lunar Lander Game</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Este es el juego de Lunar Lander, cual objetivo es aterrizar una nave encima de la luna sin que la nave explote.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel='stylesheet' media='screen and (min-width: 901px)' href='css/d.css'>
+		<link rel='stylesheet' media='screen and (max-width: 900px)' href='css/m.css'>
+		<script src="js/js.js"></script> 
+	</head>
+	<body>
+		
+		<div id="nave">
+			<img id="naveimg" src="img/rocket.png" alt="img nave">
+		</div>
+
+		<div id="izquierda">
+		
+		<div id="cpanel">
+			<div class="marcadores">Velocidad:<br><b><span id="velocidad">0</span></b> m/s</div>
+			<div class="marcadores">Fuel:<br><b><span id="fuel">100</span></b> L</div>
+			<div class="marcadores">Altura:<br><b><span id="altura">0</span></b> m</div>
+		</div>
+		</div>
+
+		<div id="aterrizar"><img src="img/moon.png" alt="luna" id="luna"></div>
+
+		<div id="derecha">
+			<div id="reanudar"></div>
+			<div id="pausa"></div>
+			<div id="instrucciones"></div>
+			<div id="botonAjustes"><p></p></div>
+		</div>
+		
+		<div id="menuInstrucciones">
+			<a href="#" onclick="ocultarInstrucciones();"><img id="close" src="img/botoclosed.png" alt="cerrar"></a>
+			<h1>¿Cómo jugar?</h1>
+			<p>El juego consiste en aterrizar la nave a una velocidad inferior a 5 m/s. La nave caerá en picado y para frenar su caída se deberá apretar la barra espaciadora o la pantalla táctil del móvil.</p>
+		</div>
+	
+		<div id="perdedor">
+			No has conseguido el objetivo de aterrizar la nave en menos de 6 m/s. Por lo tanto, debes mejorar más.
+			<button id="jugarOtraVez">Prueba otra vez</button>
+		</div>
+	
+		<div id="ganador">
+			Has conseguido el objetivo de manera correcta. Por lo tanto, eres un buen piloto.
+			<button id="jugarAgain">Prueba otra vez</button>
+		</div>
+	
+	</body>
+</html>
