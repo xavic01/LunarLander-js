@@ -17,3 +17,5 @@ En la parte superior derecha he puesto el botón de instrucciones, el botón de 
 - Si perdemos significa que NO hemos conseguido aterrizar la nave a una velocidad inferior a 6 m / y nos aparecerá una pantalla dándonos la mala noticia de que no hemos conseguido el objetivo. Además, nos muestra un botón en la parte inferior que nos permite volver a jugar si queremos.
 
 He incorporado la función que hace que la nave normal se cambie con una nave con fuego en el momento que pulsamos el botón de encender el motor y la función que hace que aparezca una explosión, simulando la explosión de la nave, sinó logramos el objetivo.
+
+Para finalizar he validado todos los archivos y he añadido una versión minimificada de todos los archivos.
