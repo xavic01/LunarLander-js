@@ -1,18 +1,18 @@
 # LunarLander-js
 
-Aquesta és la versió del joc Lunar Lander que conté JavaScript.
-El joc està compost per:
-- 1 arxiu html.
-- 2 arxius css, dividits amb el css per pantalla d'ordinador i el css per la pantalla del mòbil.
-- 1 arxiu JavaScript.
+El enlace de Rawgit: https://rawgit.com/xavic01/LunarLander-js/master/lunarlander.html
+Esta es la versión del juego Lunar Lander que contiene JavaScript.
+El juego está compuesto por:
+- 1 archivo html.
+- 2 archivos css, divididos con el css para pantalla de ordenador y el css para la pantalla del móvil.
+- 1 archivo JavaScript.
 
-He afegit uns marcadors a la part superior esquerra que ens indiquen la altura, la velocidad i el fuel que queda a la nau per aconseguir aterrar de manera correcte. Aquests marcadors van variant, la altura varia depenent de la posició que ocupa la nau dins la pantalla, la velocitat varia depenent de la velocitat en que la nau s'atraca a la lluna i el fuel varia perquè cada vegada que utilitzam la barra espaciadora s'encén el motor de la nau. Per tant, cada vegada que prenem la barra espaciadora fa que el marcador del fuel baixi a mesura del temps que està encès el motor.
+He añadido unos marcadores en la parte superior izquierda que nos indican la altura, la velocidad y el fuel que queda en la nave para conseguir aterrizar de manera correcta. Estos marcadores van variando, la altura varía dependiendo de la posición que ocupa la nave dentro de la pantalla, la velocidad varía dependiendo de la velocidad a la que la nave se acerca a la luna y el fuel varía porque cada vez que utilizamos la barra espaciadora se enciende el motor de la nave. Por lo tanto, cada vez que pulsamos la barra espaciadora hace que el marcador del fuel baje a medida del tiempo que está encendido el motor.
 
-En la part superior esquerra he posat el botó d'instruccions, el botó de pausa i el botó de play. El botó d'instruccions al pulsar-lo ens surt un missatge que ens diu com es juga, dins aquesta pantalla d'instruccions, a la part superior dreta hi ha un altre botó que permet tancar aquella pantalla per seguir jugant. El botó de pausa, al pitjar-lo, pausa el joc i automaticament el botó es canvia per un botó de play que permet tornar a jugar en voler.
+En la parte superior derecha he puesto el botón de instrucciones, el botón de pausa y el botón de play. El botón de instrucciones al pulsar-lo nos sale un mensaje que nos dice cómo se juega, además, dentro de esta pantalla de instrucciones, en la parte superior derecha hay otro botón que permite cerrar esa pantalla para seguir jugando. El botón de pausa, al pulsarlo, pausa el juego y automáticamente el botón se cambia por un botón de play que permite volver a jugar cuando quieras.
 
-Què passa si guanyam o perdem?
-- Si guanyam vol dir que hem aconseguit aterrar la nau a una velocidad inferior a 6 m/s i ens apareixerà una pantalla donant-nos l'enhorabona, també ens mostra un botó a la part inferior que ens permet tornar a jugar.
-- Si perdem vol dir que NO hem aconseguit aterrar la nau a una velocidad inferior a 6 m/s i ens apareixerà una pantalla donant-nos la mala noticia de que no hem aconseguit l'objectiu, també ens mostrarà un botó a la part inferior que ens permet tornar a jugar.
+¿Qué pasa si ganamos o perdemos?
+- Si ganamos significa que hemos conseguido aterrizar la nave a una velocidad inferior a 6 m / s y nos aparecerá una pantalla dándonos la enhorabuena.Además, nos muestra un botón en la parte inferior que nos permite volver a jugar.
+- Si perdemos significa que NO hemos conseguido aterrizar la nave a una velocidad inferior a 6 m / y nos aparecerá una pantalla dándonos la mala noticia de que no hemos conseguido el objetivo. Además, nos muestra un botón en la parte inferior que nos permite volver a jugar si queremos.
 
-He incorporat la funció que fa que la nau normal es canviï amb una nau amb foc en el moment que prenem el botó d'encendre el motor i la funció que fa que apereixi una explosió si no aconseguim l'objectiu.
- 
+He incorporado la función que hace que la nave normal se cambie con una nave con fuego en el momento que pulsamos el botón de encender el motor y la función que hace que aparezca una explosión, simulando la explosión de la nave, sinó logramos el objetivo.
