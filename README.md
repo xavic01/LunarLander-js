@@ -1,6 +1,7 @@
 # LunarLander-js
 
 El enlace de Rawgit: https://rawgit.com/xavic01/LunarLander-js/master/lunarlander.html
+
 Esta es la versión del juego Lunar Lander que contiene JavaScript.
 El juego está compuesto por:
 - 1 archivo html.
