@@ -19,6 +19,12 @@
 	background-color: yellow;
     margin: 10px;
 }
+#jugarOtraVez{
+	font-size:2vw;
+}
+#jugarAgain{
+	font-size:2vw;
+}	
 #derecha{
     display:block;
     width:33.3%; 
